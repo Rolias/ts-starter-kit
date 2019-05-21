@@ -1,3 +1,3 @@
 # TypeScript starter kit
 
-A bare-bones starter kit for typescript. The new-ts-app.sh shows the recommended steps for starting. You can just copy that script down to your machine, make it executable (chmod +x) and then run it.
+A bare-bones starter kit for typescript. My [new-project-script](https://github.com/Rolias/new-project-script) repository is a convenient way to clone a repo, get rid of all the old history and have a shiny new repo to work in.
