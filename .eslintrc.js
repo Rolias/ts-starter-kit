@@ -48,6 +48,14 @@ module.exports = {
     '@typescript-eslint/promise-function-async': 'error',
     '@typescript-eslint/restrict-plus-operands': 'error',
     '@typescript-eslint/unified-signatures': 'error',
+    // '@typescript-eslint/prefer-destructuring': [
+    //   'warn',
+    //   ,
+    //   {
+    //     array: false,
+    //     object: true,
+    //   },
+    // ],
 
     semi: [
       'error',
@@ -59,7 +67,7 @@ module.exports = {
     'member-ordering': 'always',
     'no-trailing-spaces': 'error',
     'no-irregular-whitespace': 'error',
-    indent: ['error', 2],
+    // indent: ['error', 2],
     quotes: ['error', 'backtick'],
     'prefer-arrow-callback': 'error',
     'no-confusing-arrow': 'error',
@@ -87,7 +95,15 @@ module.exports = {
     'no-prototype-builtins': 'error',
     'no-array-constructor': 'error',
     'array-callback-return': 'error',
-    'prefer-destructuring': 'off',
+    'prefer-destructuring' :'off',
+    // 'prefer-destructuring': [
+    //   'warn',
+    //   ,
+    //   {
+    //     array: false,
+    //     object: true,
+    //   },
+    // ],
     'prefer-template': 'error',
     'template-curly-spacing': ['error', 'never'],
     'no-eval': 'error',
