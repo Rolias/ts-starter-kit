@@ -8,7 +8,10 @@
     "prebuild": " rimraf build/*",
     "build": "tsc",
     "postbuild": "npm-run-all make-images --parallel copy-images copy-manifest copy-html",
-    "test": "mocha "
+    "test": "mocha ",
+    "test:cov": "nyc mocha ",
+    "test:unit": "npm --silent run test -- -- -g UNIT",
+    "test:int": "npm run test -- -- -g INTEGRATION"
   },
   "repository": {
     "type": "git",
