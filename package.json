@@ -1,13 +1,13 @@
 {
   "name": "typescript-starter-kit",
   "version": "0.0.1",
-  "description": "An exploratory package looking at PS Bloom verbs and categories",
+  "description": "Put your description here and change the name property",
   "main": "./src/app.ts",
   "scripts": {
     "start": "ts-node $npm_package_main",
     "prebuild": " rimraf build/*",
     "build": "tsc",
-    "postbuild": "npm-run-all make-images --parallel copy-images copy-manifest copy-html",
+    "postbuild": "",
     "test": "mocha ",
     "test:cov": "nyc mocha ",
     "test:unit": "npm --silent run test -- -- -g UNIT",
