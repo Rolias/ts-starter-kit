@@ -1,6 +1,6 @@
 {
   "name": "typescript-starter-kit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Put your description here and change the name property",
   "main": "./src/app.ts",
   "scripts": {
