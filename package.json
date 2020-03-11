@@ -5,7 +5,7 @@
     "node": ">10.0.0"
   },
   "description": "Put your description here and change the name property",
-  "main": "build/app.ts",
+  "main": "src/app.ts",
   "types": "build/app.d.ts",
   "files": [
     "build/**/*.ts",
@@ -21,7 +21,8 @@
     "test": "mocha ",
     "test:cov": "nyc mocha ",
     "test:unit": "npm --silent run test -- -- -g UNIT",
-    "test:int": "npm run test -- -- -g INTEGRATION"
+    "test:int": "npm run test -- -- -g INTEGRATION",
+    "debug": "echo this is me"
   },
   "repository": {
     "type": "git",
