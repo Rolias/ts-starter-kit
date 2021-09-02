@@ -4,7 +4,7 @@
     "rootDir": "./src",
     "outDir": "./build",
     "module": "commonjs",
-    "target": "es2017",
+    "target": "ES2015",
     "moduleResolution": "node",
     "checkJs": false,
     "allowJs": false,
