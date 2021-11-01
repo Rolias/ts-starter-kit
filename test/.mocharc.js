@@ -9,6 +9,7 @@ module.exports = {
     "chai",
     "sinon",
     "sinon-chai",
+    "chai-subset",
     `chai-as-promised`,
     'chai/register-should',
     `test/mocha-init`

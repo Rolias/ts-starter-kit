@@ -6,6 +6,7 @@
     "module": "commonjs",
     "target": "ES2015",
     "moduleResolution": "node",
+    "esModuleInterop": true,
     "checkJs": false,
     "allowJs": false,
     "noUnusedLocals": true,
