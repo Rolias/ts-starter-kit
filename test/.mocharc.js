@@ -4,12 +4,12 @@ module.exports = {
   "reporter": "spec",
   "timeout": 5000,
   "require": [
+    "ts-node/register",
+    "source-map-support/register",
     "chai",
     "sinon",
     "sinon-chai",
     `chai-as-promised`,
-    "ts-node/register",
-    "source-map-support/register",
     'chai/register-should',
     `test/mocha-init`
     ],
