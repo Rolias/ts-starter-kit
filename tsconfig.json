@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "skipLibCheck": true,
     "baseUrl": ".",
     "rootDir": "./src",
     "outDir": "./build",
@@ -15,6 +16,6 @@
     "watch": false,
     "strictNullChecks": true
   },
-  "include": ["./**/*"],
+  "include": ["./**/*.ts"],
   "exclude": ["prettier.config.js", "./build/*"]
 }
