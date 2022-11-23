@@ -4,7 +4,7 @@
 // no longer need to do this as .mocharc.js requires everything and mocha-init.js
 // is called from there and it issues the use(...) statements
 
-describe(`UNIT TEST: Some Module`, () => {
+describe.skip(`UNIT TEST: Some Module`, () => {
   it(`should do something`, () => {
     true.should.be.true
   })

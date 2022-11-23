@@ -7,7 +7,7 @@ function testSetup() {
   }
 }
 
-describe(`Simple test that launch.json does what is expected`, () => {
+describe.skip(`Simple test that launch.json does what is expected`, () => {
   it(`Test should run and auto import all needed test stuff`, () => {
     const setup = testSetup()
     setup.a.should.eql(1)
